@@ -1,9 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Pagesix</title>
+    <style>
+      .container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
+
+      .box {
+        text-align: center;
+      }
+
+      .box img {
+        width: 50px;
+        height: 50px;
+        margin-bottom: 10px;
+      }
+
+      .box p {
+        font-size: 14px;
+      }
+
+      .box p.small {
+        font-size: 12px;
+        color: gray;
+      }
+    </style>
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <div class="box box1">
+        <img
+          src="https://i.ibb.co/m99x30B/truck.png"
+          alt="truck"
+          class="truck"
+        />
+        <p>Secure & Quick Shipping</p>
+        <p class="small">Timely Delivery And Safe Shipping Of The Products</p>
+      </div>
+      <div class="box box2">
+        <img
+          src="https://i.ibb.co/YQm6M9F/customer.png"
+          alt="customer"
+          class="customer"
+        />
+        <p>Customer-driven Outlook</p>
+        <p class="small">
+          Exceptional Customer Service & Consultative Approach
+        </p>
+      </div>
+      <div class="box box3">
+        <img
+          src="https://i.ibb.co/3v61t4n/quality.png"
+          alt="quality"
+          class="quality"
+        />
+        <p>Stamp of Quality</p>
+        <p class="small">Two-Year Warranty With No Questions Asked.</p>
+      </div>
+    </div>
+  </body>
 </html>
